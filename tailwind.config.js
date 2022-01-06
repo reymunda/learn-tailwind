@@ -1,9 +1,11 @@
 module.exports = {
-    theme: {
-      extend: {
-        // ...
-      },
-    },
-    plugins: [],
-  }
-  
+  content: ['./dist/**/*.{html,js}'],
+  theme: {
+    extend: {
+      colors: {
+        subtleGrey: '#dedede'
+      }
+    }
+  },
+  plugin: []
+}
