@@ -6,7 +6,8 @@ module.exports = {
         body: ['"Open Sans"']
       },
       colors: {
-        subtleGrey: '#dedede'
+        subtleGrey: '#dedede',
+        black: '#1C1C1C'
       }
     }
   },
