@@ -7,61 +7,27 @@
     <link rel="stylesheet" href="output.css">
     <title>Learn Tailwind</title>
 </head>
-<body>
-    <div class="container mx-auto mt-10 border-4 rounded-2xl">
-        <!-- <button class="btn-subtleGrey">Awesome</button> -->
-        <div class="grid grid-cols-3 grid-row-2 gap-5">
-            <div class="border-2 row-span-2 sm:col-span-3 lg:col-span-1">
-                <img src="https://picsum.photos/500" class="w-full object-cover h-52" alt="">
-                <div class="box-border p-4">
-                    <h2 class="font-semibold text-gray-400 mt-3 text-lg">Your Destination Friends</h2>
-                    <p class="text-base text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque dolor pariatur, sapiente reprehenderit dolorum suscipit corrupti deserunt reiciendis? Dolor corporis quibusdam nulla libero! In exercitationem possimus maxime eum saepe.</p>
-                    <button class="bg-indigo-400 py-2 px-4 font-bold text-indigo-100 mt-6 rounded">
-                        View Detail
-                    </button>
+<body class="font-body">
+    <div class="container mx-auto mt-10">
+        <header>
+            <nav class="flex  justify-between items-center">
+                <div class="brand">
+                    <img src="logo.svg" alt="">
                 </div>
-            </div>
-            <div class="border-2 flex h-50 sm:col-span-3 lg:col-span-1">
-                <img src="https://picsum.photos/500" class="w-36 object-cover " alt="">
-                <div class="box-border p-4 w-64">
-                    <h2 class="font-semibold text-gray-400 mt-3 text-lg">Your Destination Friends</h2>
-                    <p class="text-xs text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque dolor pariatur.</p>
-                    <button class="bg-indigo-400 py-2 px-4 font-bold text-indigo-100 mt-6 rounded">
-                        View Detail
-                    </button>
+                <div class="menu w-2/5">
+                    <ul class="flex justify-between items-center font-semibold text-base">
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li class="flex">Support <img src="down.svg" class="ml-1" alt=""></li>
+                        <li>
+                            <button class="bg-orange-500 p-2 font-bold text-white">
+                                Reservation
+                            </button>
+                        </li>
+                     </ul>
                 </div>
-            </div>
-            <div class="border-2 flex h-50 sm:col-span-3 lg:col-span-1">
-                <img src="https://picsum.photos/500" class="w-36 object-cover " alt="">
-                <div class="box-border p-4 w-64">
-                    <h2 class="font-semibold text-gray-400 mt-3 text-lg">Your Destination Friends</h2>
-                    <p class="text-xs text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque dolor pariatur.</p>
-                    <button class="bg-indigo-400 py-2 px-4 font-bold text-indigo-100 mt-6 rounded">
-                        View Detail
-                    </button>
-                </div>
-            </div>
-            <div class="border-2 flex h-60 sm:col-span-3 lg:col-span-1">
-                <img src="https://picsum.photos/500" class="w-36 object-cover " alt="">
-                <div class="box-border p-4 w-64">
-                    <h2 class="font-semibold text-gray-400 mt-3 text-lg">Your Destination Friends</h2>
-                    <p class="text-xs text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque dolor pariatur.</p>
-                    <button class="bg-indigo-400 py-2 px-4 font-bold text-indigo-100 mt-6 rounded">
-                        View Detail
-                    </button>
-                </div>
-            </div>
-            <div class="border-2 flex h-50 sm:col-span-3 lg:col-span-1">
-                <img src="https://picsum.photos/500" class="w-36 object-cover " alt="">
-                <div class="box-border p-4 w-64">
-                    <h2 class="font-semibold text-gray-400 mt-3 text-lg">Your Destination Friends</h2>
-                    <p class="text-xs text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque dolor pariatur.</p>
-                    <button class="bg-indigo-400 py-2 px-4 font-bold text-indigo-100 mt-6 rounded">
-                        View Detail
-                    </button>
-                </div>
-            </div>
-        </div>
+            </nav>
+        </header>
     </div>
 </body>
 </html>
