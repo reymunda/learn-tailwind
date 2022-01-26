@@ -9,3 +9,23 @@
 .btn-subtleGrey:active{
     @apply opacity-60;
 }
+
+.animation-updown{
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    transition: all .3s;
+}
+
+@keyframes updown{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
