@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="output.css">
     <title>Learn Tailwind</title>
 </head>
-<body class="font-body bg-white">
-    <div class="h-screen w-[45%] border-4 bg-orange-100 absolute right-0 -z-20">
+<body class="font-body bg-white overflow-x-hidden">
+    <div class="h-screen w-[45%] bg-orange-100 absolute right-0 -z-20">
 
     </div>
     <div class="container mx-auto pt-10">
         <header>
             <nav class="flex  justify-between items-center ">
-                <div class="brand">
+                <a href="#" class="brand">
                     <img src="logo.svg" alt="">
-                </div>
+                </a>
                 <div class="menu w-2/5">
                     <ul class="flex justify-between items-center font-semibold text-base">
                         <li>Features</li>
@@ -57,6 +57,8 @@
                             <p>Sevices type</p>
                             <select name="" id="" class="p-0 outline-none font-semibold mt-2 text-gray-400">
                                 <option value="">Choose types</option>
+                                <option value="">Sentiment Analysis</option>
+                                <option value="">Good time to post</option>
                             </select>
                         </div>
                         <button class="bg-orange-500 p-4 font-bold text-white">
@@ -65,8 +67,65 @@
                     </div>
                 </div>
                 <div class="illustration w-[45%] flex justify-evenly -z-10">
-                    <img src="illustration.svg" class="scale-90 mt-0" alt="">
+                    <img src="illustration.svg" class="scale-90 -mt-8" alt="">
                 </div>
+            </section>
+            <section class="review mt-36 flex justify-between relative">
+                <div class="flex items-center"> 
+                    <h2 class="text-4xl text-black font-bold"><span class="text-orange-500">1.2K</span><br>Clients</h2>
+                </div>
+                <img src="arrow-l.svg" class="absolute left-80 top-12 opacity-60 hover:opacity-100" alt="">
+                <div class="carousel flex w-fit ml-60 border">
+                    <div class="card box-border px-6 py-4 border-2 border-gray-400 w-[320px] h-[175px] mr-7">
+                        <div class="personal flex">
+                            <div>
+                                <img src="profile.png" alt="">
+                            </div>
+                            <div class="name-rate  ml-3">
+                                <p class="mb-2 font-semibold">M. John Doe</p>
+                                <img src="rate.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-4 text-base">Social media manager helps you track your bussiness in social media with lots of features. </p>
+                    </div>
+                    <div class="card box-border px-6 py-4 border-2 border-gray-400 w-[320px] h-[175px] mr-7">
+                        <div class="personal flex">
+                            <div>
+                                <img src="profile.png" alt="">
+                            </div>
+                            <div class="name-rate  ml-3">
+                                <p class="mb-2 font-semibold">M. John Doe</p>
+                                <img src="rate.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-4 text-base">Social media manager helps you track your bussiness in social media with lots of features. </p>
+                    </div>
+                    <div class="card box-border px-6 py-4 border-2 border-gray-400 w-[320px] h-[175px] mr-7">
+                        <div class="personal flex">
+                            <div>
+                                <img src="profile.png" alt="">
+                            </div>
+                            <div class="name-rate  ml-3">
+                                <p class="mb-2 font-semibold">M. John Doe</p>
+                                <img src="rate.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-4 text-base">Social media manager helps you track your bussiness in social media with lots of features. </p>
+                    </div>
+                    <div class="card box-border px-6 py-4 border-2 border-gray-400 w-[320px] h-[175px] mr-7">
+                        <div class="personal flex">
+                            <div>
+                                <img src="profile.png" alt="">
+                            </div>
+                            <div class="name-rate  ml-3">
+                                <p class="mb-2 font-semibold">M. John Doe</p>
+                                <img src="rate.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-4 text-base">Social media manager helps you track your bussiness in social media with lots of features. </p>
+                    </div>
+                </div>
+                <img src="arrow-r.svg" class="absolute right-0 top-12 opacity-60 hover:opacity-100" alt="">
             </section>
         </main>
     </div>
